@@ -1,0 +1,118 @@
+@import "./../variables.scss";
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50vh;
+    width: 90vw;
+    margin: auto;
+    margin-bottom: 9%;
+
+    .leftside{
+        height: 100%;
+        width: 30%;
+        background-image: url("../images/phone_i.png");
+        background-position: right;
+        background-size: contain;
+        background-repeat: no-repeat;
+        &>p{
+            transform: rotate(-90deg);
+            position: absolute;
+            top: 30%;
+            margin: 0;
+            left: 4%;
+            color: $navy;
+            font-family: Regular;
+            font-size: 1rem;
+        }
+    }
+    .line{
+        @include line();
+        height: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .rightside{
+        height: 100%;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        &>p{
+            transform: rotate(90deg);
+            position: fixed;
+            bottom: 10%;
+            margin: 0;
+            right: 0;
+            color: $navy;
+            font-family: Regular;
+            font-size: 1rem;
+        }
+        .mainTitle{
+            text-transform: uppercase;
+            color: $vasilyok;
+            font-family: Bold;
+            font-size: 2.5rem;
+        }
+        .secondTitle{
+            font-size: 1.8rem;
+            font-family: ExtraLight;
+            color: $navy;
+            margin-top: -6%;
+            &>span{
+                text-transform: uppercase;
+                font-size: 2rem;
+                font-family: Karla;
+
+
+            }
+        }
+        button{
+            display: flex;
+            color: white;
+            border-radius: 1.8rem;
+            width: 20%;
+            height: 20%;
+            border-style: none;
+            background-color: $vasilyok;
+            font-family: Regular;
+            font-size: calc(.5rem + 1vw);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 5%;
+            margin-top: 5%;
+        }
+        .icons{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 70%;
+            margin-left: 5%;
+            margin-right: auto;
+
+            &>*{
+                width: 2vw;
+                height: 2vw;
+                margin: auto;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+            }
+            .linkedIn{
+                background-image: url("../images/in.png");
+            }
+            .gitHub{
+                background-image: url("../images/git2.png");
+            }
+            .email{
+                background-image: url("../images/mail2.png");
+            }
+            .phone{
+                background-image: url("../images/phone2.png");
+            }
+        }
+    }
+}

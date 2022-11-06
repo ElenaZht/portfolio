@@ -1,0 +1,41 @@
+@import "./../variables.scss";
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10%;
+    width: 90vw;
+    margin: 3% auto 8%;
+
+    .logo{
+        display: flex;
+        font-family: Regular;
+        color: $lines;
+        font-size: 2rem;
+        }
+    .nav{
+        display: flex;
+        font-family: Karla;
+        font-size: 1rem;
+        color: $navy;
+        width: 90%;
+        justify-content: end;
+
+            &>div+div{
+            margin-left: 2%;
+            }
+        }
+    .line{
+        background-color: $navy;
+        width: 1px;
+        height: 1rem;
+        display: flex;
+        }
+    div[type="active"]{
+        border-bottom: solid 3px $vasilyok;
+    }
+}
+
+

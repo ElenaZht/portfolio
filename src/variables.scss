@@ -1,0 +1,38 @@
+$vasilyok: #2A46FF;
+$navy: #333984;
+$shadow: 3px 5px 50px 0px rgba(42, 70, 255, 0.2);
+$lines: #CED4F8;
+
+@mixin card{
+  box-shadow: $shadow;
+  border-radius: 3rem;
+  border-style: none;
+  margin: auto auto 3%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@mixin line{
+  width: 0.1rem;
+  opacity: .5;
+  display: flex;
+  background-color: $lines;
+}
+@mixin sectionTitle{
+  color: $navy;
+  font-family: Bold;
+  font-size: 1.2rem;
+  transform: rotate(-90deg);
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  width: 5%;
+}
+@mixin regularText{
+  font-family: Regular;
+  font-size: .8rem;
+  color: $navy;
+}
+

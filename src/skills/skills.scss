@@ -1,0 +1,54 @@
+@import "./../variables.scss";
+
+.skills{
+  width: 90%;
+  height: 30vh;
+  @include card();
+
+  .title{
+    @include sectionTitle()
+  }
+  .line{
+    @include line();
+    height: 80%;
+
+  }
+  .stack{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+    padding: 0;
+    margin-right: 2%;
+    margin-left: 2%;
+
+    .item{
+      height: 45%;
+      width: 5vw;
+      display: inline-block;
+      flex-direction: column;
+      justify-content: space-between;
+      font-size: calc(.5rem + 1vw);
+      overflow: hidden;
+      margin-right: 2%;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+
+      .img{
+        background-color: #CED4F8;
+        width: 3vw;
+        height: 3vw;
+        margin: auto;
+      }
+      .link{
+        @include regularText()
+
+      }
+    }
+
+  }
+}
