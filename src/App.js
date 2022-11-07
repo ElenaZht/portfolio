@@ -5,6 +5,7 @@ import Home from "./home/home.js";
 import classes from './App.scss'
 import Skills from "./skills/skills";
 import Aboutme from "./aboutme/aboutme";
+import Contacts from "./contacts/contacts";
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Home/>
       <Skills/>
       <Aboutme/>
+      <Contacts/>
     </div>
   );
 }

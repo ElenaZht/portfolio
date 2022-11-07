@@ -1,0 +1,71 @@
+@import "./../variables.scss";
+.contacts{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  height: 40vh;
+  margin: auto auto 2%;
+
+  .wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 3%;
+
+    .icons{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 80%;
+
+      .iconCard{
+        @include card();
+        @include regularText();
+        height: 13vw;
+        width: 13vw;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .icon{
+          width: 7vw;
+          height: 7vw;
+        }
+        .linkedin{
+          @include linkedin()
+        }
+        .git{
+          @include git()
+        }
+        .mail{
+          @include mail()
+        }
+        .phone{
+          @include phone()
+        }
+
+        & span{
+          margin-top: 5%;
+        }
+      }
+    }
+    .footer{
+      display: flex;
+      justify-content: space-between;
+      height: 20%;
+      align-self: center;
+
+      .footerText{
+        width: 60%;
+        text-align: left;
+        @include regularText()
+      }
+      .footerLogo{
+        @include logo();
+        font-size: calc(2vmax + 2rem);
+      }
+    }
+  }
+}

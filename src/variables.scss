@@ -5,7 +5,7 @@ $lines: #CED4F8;
 
 @mixin card{
   box-shadow: $shadow;
-  border-radius: 3rem;
+  border-radius: 2rem;
   border-style: none;
   margin: auto auto 3%;
   display: flex;
@@ -35,4 +35,30 @@ $lines: #CED4F8;
   font-size: .8rem;
   color: $navy;
 }
+@mixin logo{
+  display: flex;
+  font-family: Regular;
+  color: $lines;
+}
 
+@mixin icon{
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+@mixin linkedin{
+  @include icon();
+  background-image: url("images/in.png");
+}
+@mixin git{
+  @include icon();
+  background-image: url("images/git2.png");
+}
+@mixin mail{
+  @include icon();
+  background-image: url("images/mail2.png");
+}
+@mixin phone{
+  @include icon();
+  background-image: url("images/phone2.png");
+}

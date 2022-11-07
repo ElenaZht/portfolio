@@ -72,7 +72,7 @@
         button{
             display: flex;
             color: white;
-            border-radius: 1.8rem;
+            border-radius: 1.5rem;
             width: 20%;
             height: 20%;
             border-style: none;
@@ -96,22 +96,19 @@
             &>*{
                 width: 2vw;
                 height: 2vw;
-                margin: auto;
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: contain;
+
             }
             .linkedIn{
-                background-image: url("../images/in.png");
+                @include linkedin();
             }
             .gitHub{
-                background-image: url("../images/git2.png");
+                @include git();
             }
             .email{
-                background-image: url("../images/mail2.png");
+                @include mail()
             }
             .phone{
-                background-image: url("../images/phone2.png");
+                @include phone()
             }
         }
     }
