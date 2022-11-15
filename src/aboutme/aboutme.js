@@ -17,7 +17,7 @@ function Aboutme() {
                     I have an <a className='highlight'>engineer degree</a> in industry so I see <a className='highlight'>coding</a> very similar to enterprise
                 creating that helps me understand processes and appreciate documentation.
                 I’m fond of anthropology and  archeology, vocal, and obsessed with cats.I also
-                    can’t live without music.</span>span>
+                    can’t live without music.</span>
                 <span>My soul-mate is also a high-level backend developer
                     who inspires me in my profession.</span>
 

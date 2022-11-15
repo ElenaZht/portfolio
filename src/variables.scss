@@ -32,8 +32,10 @@ $lines: #CED4F8;
 }
 @mixin regularText{
   font-family: Regular;
-  font-size: .8rem;
+  font-size: calc(.4rem + .5vw);
   color: $navy;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 @mixin logo{
   display: flex;
@@ -61,4 +63,18 @@ $lines: #CED4F8;
 @mixin phone{
   @include icon();
   background-image: url("images/phone2.png");
+}
+::-webkit-scrollbar {
+  width: 1vw;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 3px 5px 5px 0px rgba(42, 70, 255, 0.2);
+  border-radius: 1rem;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(42, 70, 255, 0.1);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(42, 70, 255, 0.2);
 }

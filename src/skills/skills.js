@@ -2,10 +2,10 @@ import React from 'react';
 import './skills.scss'
 
 function Skills() {
-    const stack = Array(20).fill({image: '', link: 'Technology'})
+    const stack = [{image: '', link: 'Technology'}];
     const getStack = stack.map(
         s =>
-            <li className='item'>
+            <li key={s} className='item'>
                 <div className='img'></div>
                 <a className='link'>{s.link}</a>
             </li>
