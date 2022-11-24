@@ -1,0 +1,27 @@
+const stack = [
+    {'name' : 'JavaScript', 'img' : require('./../images/stack/js-file.png')},
+    {'name' : 'HTML5', 'img' : require('./../images/stack/html5.png')},
+    {'name' : 'CSS3', 'img' : require('./../images/stack/css3.png')},
+    {'name' : 'React', 'img' : require('./../images/stack/react.png')},
+    {'name' : 'Angular2+', 'img' : require('./../images/stack/angular.png')},
+    {'name' : 'RxJs', 'img' : require('./../images/stack/rxjs.png')},
+    {'name' : 'REST API', 'img' : require('./../images/stack/restapi.png')},
+    {'name' : 'jQuery', 'img' : require('./../images/stack/jquery.png')},
+    {'name' : 'OpenWeather API', 'img' : require('./../images/stack/open_weather.png')},
+    {'name' : 'News API', 'img' : require('./../images/stack/news_api.png')},
+    {'name' : 'Google API', 'img' : require('./../images/stack/googleapi.png')},
+    {'name' : 'Google Map API', 'img' : require('./../images/stack/google-maps.png')},
+    {'name' : 'Git', 'img' : require('./../images/stack/git.png')},
+    {'name' : 'i18n', 'img' : require('./../images/stack/i18n.jpg')},
+    {'name' : 'Firebase', 'img' : require('./../images/stack/firebase.png')},
+    {'name' : 'React Testing Library', 'img' : require('./../images/stack/react_testing.png')},
+    {'name' : 'WebStorm', 'img' : require('./../images/stack/webstorm.png')},
+    {'name' : 'Figma', 'img' : require('./../images/stack/figma.png')},
+    {'name' : 'GitHub', 'img' : require('./../images/stack/github.png')},
+    {'name' : 'Postman API', 'img' : require('./../images/stack/postman.png')},
+    {'name' : 'Bootstrap', 'img' : require('./../images/stack/bootstrap.png')},
+    {'name' : 'Material Design', 'img' : require('./../images/stack/material_design.png')},
+    {'name' : 'Materialize', 'img' : require('./../images/stack/matcss-min.png')},
+
+];
+export {stack}

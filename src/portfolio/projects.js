@@ -1,4 +1,5 @@
 const projects = [{
+  "id": "1",
   "logo": require("./../images/screenshots/weather/logoweatherlogo.png"),
   "name": "weather",
   "link": "link to project weather",
@@ -27,7 +28,8 @@ const projects = [{
     require("./../images/screenshots/weather/222.png")
   ]
 },
-  {"logo": require("./../images/screenshots/ilcarro/ilcarrplogo.png"),
+  {  "id": "2",
+    "logo": require("./../images/screenshots/ilcarro/ilcarrplogo.png"),
     "name": "il Carro",
     "link": "link to project ilCarro",
     "desc": "application-aggregator for renting private cars",
@@ -58,7 +60,8 @@ const projects = [{
     require("./../images/screenshots/ilcarro/237.png")
   ]
 },
-  {"logo": require("./../images/screenshots/coffeebreacker/coffee_logo.png"),
+  {  "id": "3",
+    "logo": require("./../images/screenshots/coffeebreacker/coffee_logo.png"),
     "name": "Coffee Breacker",
     "link": "link to project CoffeeBreacker",
     "desc": "two-side application for coffee house business",

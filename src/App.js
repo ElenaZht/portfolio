@@ -1,5 +1,5 @@
 import './App.scss';
-import React from "react";
+import React, {useEffect, useState} from "react";
 import Navbar from "./navbar/navbar.js";
 import Home from "./home/home.js";
 import classes from './App.scss'
@@ -9,15 +9,21 @@ import Contacts from "./contacts/contacts";
 import Portfolio from "./portfolio/portfolio";
 
 function App() {
-
+    const [isMobile, setIsMobile] = useState(false);
+    useEffect(() => {
+        if(window.matchMedia("(max-width: 800px)").matches){
+            setIsMobile(true);
+            console.log('MOBILE MOD')
+        }
+    },[]);
   return (
-    <div className={classes.App}>
-      <Navbar/>
-      <Home/>
-      <Skills/>
-      <Aboutme/>
-      <Portfolio/>
-      <Contacts/>
+    <div className={isMobile? 'mobile_app':classes.App}>
+      <Navbar mobile={isMobile}/>
+      <Home mobile={isMobile}/>
+      <Skills mobile={isMobile}/>
+      <Aboutme mobile={isMobile}/>
+      <Portfolio mobile={isMobile}/>
+      <Contacts mobile={isMobile}/>
     </div>
   );
 }

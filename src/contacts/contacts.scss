@@ -55,6 +55,7 @@
       display: flex;
       justify-content: space-between;
       height: 20%;
+      width: 90%;
       align-self: center;
 
       .footerText{
@@ -65,6 +66,57 @@
       .footerLogo{
         @include logo();
         font-size: calc(2vmax + 2rem);
+      }
+    }
+  }
+}
+.contacts_mobile{
+  flex-direction: column;
+  height: 100%;
+
+  .title{
+    transform: none;
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 3%;
+  }
+  .line{
+    width: 80%;
+    height: .2rem;
+    margin: 5%;
+    box-shadow: 0 2px $lines, 0 -2px $lines;
+
+  }
+  .wrapper{
+    align-items: center;
+
+    .icons{
+      flex-wrap: wrap;
+      margin-top: 10%;
+      margin-bottom: 10%;
+
+      .iconCard{
+        width: 45%;
+        height: 20vmax;
+        background-color: white;
+
+        .icon{
+          width: 10vmax;
+          height: 10vmax;
+        }
+        & span{
+          font-size: calc(1rem + 1vw);
+        }
+      }
+
+    }
+    .footer{
+
+      .footerLogo{
+        color: white;
+        text-shadow: -2px 0 $lines, 0 2px $lines, 0 2px $lines, -2px 0 $lines;
+        font-size: calc(3vmax + 3rem);
+        margin: auto auto 5%;
       }
     }
   }

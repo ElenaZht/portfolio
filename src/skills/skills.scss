@@ -2,15 +2,19 @@
 
 .skills{
   width: 90%;
-  height: 30vh;
   @include card();
+  min-height: 10vh;
+  max-height: 100%;
+  height: 100%;
+  flex-grow: 3;
 
   .title{
     @include sectionTitle()
   }
   .line{
     @include line();
-    height: 80%;
+    height: 20vh;
+    flex-grow: 3;
 
   }
   .stack{
@@ -26,28 +30,101 @@
     margin-left: 2%;
 
     .item{
-      height: 45%;
+      height: 10vh;
       width: 5vw;
-      display: inline-block;
+      display: flex;
       flex-direction: column;
       justify-content: space-between;
+      align-items: center;
       font-size: calc(.5rem + 1vw);
       margin-right: 2%;
-      text-overflow: ellipsis;
-      overflow: hidden;
-      white-space: nowrap;
+      margin-top: 1%;
 
       .img{
-        background-color: #CED4F8;
-        width: 3vw;
-        height: 3vw;
+        width: 100%;
+        height: 50%;
         margin: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: flex;
       }
       .link{
-        @include regularText()
+        @include regularText();
+        height: 30%;
+        flex-grow: 2;
+        font-size: 1vmax;
+        display: flex;
+        overflow: visible;
+        text-align: center;
 
       }
     }
 
   }
+}
+.skills_mobile{
+  background-color: white;
+  justify-content: flex-end;
+  flex-direction: column;
+
+  .wrap_mobile{
+    width: 100%;
+    height: 100%;
+
+    .head{
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+  }
+
+  .title{
+    transform: none;
+    width: 50%;
+  }
+  .line{
+    width: 2rem;
+    height: .2rem;
+    margin: 1%;
+    flex-grow: 0;
+    transform: rotate(90deg);
+  }
+  & button{
+    width: 15%;
+    height: 5vmax;
+    @include icon();
+    background-image: url("./../images/down-arrow.png");
+    border: none;
+    margin: 6% 6% 6% 0;
+    background-position: center;
+    background-color: transparent;
+
+  }
+  .stack_mobile{
+    width: 100%;
+    height: 20vmax;
+    padding: 0;
+    margin-right: 2%;
+    margin-left: 2%;
+    overflow: auto;
+
+
+
+
+    .item{
+      height: 35vh;
+      width: 90vw;
+
+      .link{
+        font-size: 2vmax;
+      }
+    }
+
+    &::-webkit-scrollbar{
+      display: none;
+    }
+
+  }
+
 }

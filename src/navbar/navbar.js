@@ -1,11 +1,11 @@
 import React from 'react';
 import './navbar.scss'
 
-const Navbar = () => {
+const Navbar = ({mobile}) => {
     return (
         <div className='navbar'>
             <div className='logo'>{'<EZ/>'}</div>
-            <div className='nav'>
+            {!mobile&&<div className='nav'>
                 <div  type="active">Home</div>
                 <div className='line'></div>
                 <div>Skills</div>
@@ -15,7 +15,8 @@ const Navbar = () => {
                 <div>Portfolio</div>
                 <div className='line'></div>
                 <div>Contacts</div>
-            </div>
+            </div>}
+            {mobile&&<div className='navCollapse'></div>}
         </div>
     );
 };

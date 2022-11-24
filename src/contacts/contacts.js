@@ -1,36 +1,35 @@
 import React from 'react';
 import './contacts.scss';
 
-function Contacts() {
+function Contacts({mobile}) {
     return (
-        <div className='contacts'>
+        <div className={mobile? 'contacts contacts_mobile':'contacts'}>
             <div className='title'>contacts</div>
             <div className='line'></div>
             <div className='wrapper'>
                 <div className='icons'>
                     <div className='iconCard'>
                         <div className='icon linkedin'></div>
-                        <span>Text</span>
+                        <span>My LinkedIn</span>
                     </div><div className='iconCard'>
                         <div className='icon git'></div>
-                        <span>Text</span>
+                        <span>My GitHub</span>
                     </div><div className='iconCard'>
                         <div className='icon mail'></div>
-                        <span>Text</span>
+                        <span>My email</span>
                     </div><div className='iconCard'>
                         <div className='icon phone'></div>
-                        <span>Text</span>
+                        <span>My phone</span>
                     </div>
 
 
                 </div>
+                {mobile&&<div className='line' style={{backgroundColor: 'white'}}></div>}
                 <div className='footer'>
-                    <div className='footerText'>
-                        It is a long established fact that a reader will be distracted by the readable content of
-                        a page when looking at its layout. The point of using Lorem Ipsum It is a long established
-                        fact that a reader will be distracted by the readable content of a page when looking at
-                        its layout. The point of using Lorem Ipsum
-                    </div>
+                    {!mobile&&<div className='footerText'>
+                        <p>Designed by me. Created by me. Debugged by me.</p>
+                        <p>Tap to links above to contact. </p>
+                    </div>}
                     <div className='footerLogo'>{'<EZ/>'}</div>
                 </div>
             </div>

@@ -35,5 +35,11 @@
         border-bottom: solid 3px $vasilyok;
     }
 }
+.navCollapse{
+    background-image: url("./../images/nav_collapse.png");
+    @include icon();
+    width: 25%;
+    height: 15vmax;
+}
 
 
