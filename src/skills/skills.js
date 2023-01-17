@@ -1,24 +1,26 @@
-import React, {useState} from 'react';
+import React, {forwardRef, useState} from 'react';
 import './skills.scss';
 import {stack} from "./stack.js";
 
-function Skills({mobile}) {
+function Skills({mobile}, goToSkillsRef) {
+
 
     const [dropDown, setDropDown] = useState(false);
     const getStack = () => {
         let myStack = [];
         for(let i=0; i<stack.length; i++){
             myStack.push(
-                        <li key={i} className='item'>
+                        <a key={i} className='item' href={stack[i]['link']} target='_blank'>
                             <div className='img' style={{backgroundImage: `url(${stack[i].img})`}}/>
-                            <a className='link'>{stack[i].name}</a>
-                        </li>
+                            <span className='link'>{stack[i].name}</span>
+                        </a>
             )
         }
         return myStack
     };
+
     return (
-        <div className={mobile? 'skills skills_mobile':'skills'}>
+        <div data-sectionname="skills" ref={goToSkillsRef}  className={mobile? 'skills skills_mobile fade-in':'skills fade-in'}>
                 {mobile&&<div className='wrap_mobile'>
                     {mobile&&<div className='head'>
                         <div className='title'>skills</div>
@@ -35,4 +37,4 @@ function Skills({mobile}) {
     );
 }
 
-export default Skills;
+export default forwardRef(Skills);

@@ -21,6 +21,8 @@
       height: 80%;
 
       .iconCard{
+        text-decoration: none;
+        transition: all .5s ease-out;
         @include card();
         @include regularText();
         height: 13vw;
@@ -49,6 +51,15 @@
         & span{
           margin-top: 5%;
         }
+      }
+      .iconCard:hover{
+        box-shadow: 3px 5px 50px 0px rgba(230,64,119,1);
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: all .5s ease;
+      }
+      .iconCard:active{
+        transform: scale(.9);
       }
     }
     .footer{
@@ -108,6 +119,7 @@
           font-size: calc(1rem + 1vw);
         }
       }
+
 
     }
     .footer{

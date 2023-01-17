@@ -2,6 +2,7 @@
 
 
 .navbar{
+    opacity: 1;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -20,11 +21,200 @@
         color: $navy;
         width: 90%;
         justify-content: end;
+        align-items: center;
+        position: absolute;
 
             &>div+div{
             margin-left: 2%;
             }
+            & div:not(.line){
+                cursor: pointer;
+            }
+            & div.navLink{
+                @include icon();
+                width: 1.5vw;
+                height: 1.5vw;
+                background-image: url("./../images/nav/share.png");
+            }
         }
+    ////////side bar
+    .sideNav{
+        transition: all .7s ease-in;
+        opacity: 1;
+        position: fixed;
+        right: 0;
+        width: 3.5vw;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: auto;
+        top: 50%;
+        transform: translateY(-50%);
+        @include card();
+        box-shadow: -25px 5px 63px 5px rgba(255,255,255,0.71), 3px 5px 50px 0px rgba(42, 70, 255, 0.2);
+        -webkit-box-shadow: -25px 5px 63px 5px rgba(255,255,255,0.71), 3px 5px 50px 0px rgba(42, 70, 255, 0.2);
+        -moz-box-shadow: -25px 5px 63px 5px rgba(255,255,255,0.71), 3px 5px 50px 0px rgba(42, 70, 255, 0.2);
+        background-color: white;
+        border: solid 1px $lines;
+
+
+        & div.wrap{
+            width: 3.5vw;
+            height: 3.5vw;
+            border: solid 1px $lines;
+            box-shadow: $shadow;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            & div.hideSideBar, div.showSideBar{
+                @include icon();
+                height: 2vw;
+                width: 2vw;
+                cursor: pointer;
+            }
+            & div{
+                @include icon();
+                height: 3vw;
+                width: 3vw;
+                opacity: .5;
+
+
+            }
+            & div.hideSideBar{
+                background-image: url("./../images/nav/close.png");
+            }
+            & div.showSideBar{
+                background-image: url("./../images/nav/menu.png");
+            }
+            & div.hideSideBar:active{
+                background-image: url("./../images/nav/close_active.png");
+                opacity: 1;
+            }
+            & div.showSideBar:active{
+                background-image: url("./../images/nav/menu_active.png");
+                opacity: 1;
+            }
+
+        }
+        & div.line{
+            display: none;
+        }
+        & div.foldable{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            opacity: 1;
+            transition: all 4s ease;
+
+
+            & div{
+                cursor: pointer;
+                @include icon();
+                height: 3vw;
+                width: 3vw;
+                opacity: .5;
+                transform: scale(1);
+                transition: .5s ease;
+                &:hover{
+                    filter: drop-shadow(6px 6px 6px #CED4F8);
+                    transform: scale(1.1);
+
+                }
+                &:active{
+                    transform: scale(.9);
+                }
+
+            }
+            & div.navHome{
+                background-image: url("./../images/nav/home.png");
+                margin: 25%;
+
+            }
+            & div.navSkills{
+                background-image: url("./../images/nav/brain.png");
+                margin: 25%;
+
+            }
+            & div.navAbout{
+                background-image: url("./../images/nav/woman.png");
+                margin: 25%;
+
+            }
+            & div.navPortfolio{
+                background-image: url("./../images/nav/portfolio.png");
+                margin: 25%;
+
+            }
+            & div.navContacts{
+                background-image: url("./../images/nav/chat.png");
+                margin: 25%;
+
+            }
+            & div.navLink{
+                background-image: url("./../images/nav/share.png");
+                margin: 25%;
+
+            }
+            /////activated icons
+            & div[type="active"]{
+                opacity: 1;
+                border: none;
+                filter: drop-shadow(2px 2px 18px rgba(42,70,255,1));
+            }
+            & div.navHome[type="active"]{
+                background-image: url("./../images/nav/home_active.png");
+            }
+
+            & div.navSkills[type="active"]{
+                background-image: url("./../images/nav/brain_active.png");
+            }
+
+            & div.navAbout[type="active"]{
+                background-image: url("./../images/nav/woman_active.png");
+            }
+
+            & div.navPortfolio[type="active"]{
+                background-image: url("./../images/nav/portfolio_active.png");
+            }
+
+            & div.navContacts[type="active"]{
+                background-image: url("./../images/nav/chat._active.png");
+            }
+
+            & div.navLink[type="active"]{
+                background-image: url("./../images/nav/share_active.png");
+            }
+        }
+        .invisible{
+            display: none;
+            height: 0;
+            opacity: 0;
+
+            & div{
+                opacity: 0;
+                height: 0;
+                border: none;
+            }
+        }
+        & div.foldable[animationName='1']{
+            animation-name: unfolding;
+        }
+        & div.foldable[animationName='2']{
+            animation-name: folding;
+        }
+
+    }
+    .disaperedBar{
+        transition: all .7s ease-out;
+        right: -10%;
+        opacity: 0;
+    }
+
     .line{
         background-color: $navy;
         width: 1px;
@@ -34,12 +224,126 @@
     div[type="active"]{
         border-bottom: solid 3px $vasilyok;
     }
+
 }
-.navCollapse{
-    background-image: url("./../images/nav_collapse.png");
-    @include icon();
-    width: 25%;
-    height: 15vmax;
+.navCollapse_wrap{
+    width: 10vmax;
+    height: 10vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & div.navLink {
+        margin: 5%;
+        @include icon();
+        width: 5vmax;
+        height: 5vmax;
+        background-image: url("./../images/nav/share.png");
+        overflow: visible;
+    }
+
+
+        .navCollapse{
+        background-image: url("./../images/nav_collapse.png");
+        background-color: transparent;
+        @include icon();
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+    .navCollapse_body{
+        background-color: $lines;
+        width: 50vw;
+        height: 50vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 11;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5%;
+
+      *{
+        @include regularText();
+        font-size: 4vmax;
+        padding: 5%;
+        border-radius: 1rem;
+
+
+        &[type="active"]{
+          border: none;
+          color: white;
+          background-color: $vasilyok;
+        }
+      }
+
+    }
+
+}
+
+.link_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20vmax;
+    height: 80%;
+    flex-wrap: wrap;
+
+    button{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 3vmax;
+        width: 4vmax;
+        margin: 1%;
+        padding: 0;
+        transform: scale(1.1);
+        transition: 1s ease;
+
+
+        &.watsapp{
+            .link_img{
+                background-image: url("./../images/nav/whatsapp_link.png");
+            }
+        }
+        &.copy{
+            .link_img{
+                background-image: url("./../images/nav/link_link.png");
+                outline: none;
+            }
+        }
+        &.facebook{
+            .link_img{
+                background-image: url("./../images/nav/facebook_link.png");
+            }
+        }
+        &.linkedin{
+            .link_img{
+                background-image: url("./../images/nav/linkedin_link.png");
+            }
+        }
+
+
+
+        .link_img{
+            @include icon();
+            width: 32px;
+            height: 32px;
+            margin: 1%;
+        }
+
+        &:hover{
+            transform: scale(1.5);
+            transition: 1s ease;
+        }
+        &:active{
+            transform: scale(.9);
+            transition: 1s ease;
+        }
+    }
 }
 
 

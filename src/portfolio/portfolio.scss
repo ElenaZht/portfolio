@@ -42,6 +42,7 @@
     margin-bottom: 1%;
 
 
+
     & .button{
       display: flex;
       align-items: center;
@@ -55,6 +56,11 @@
       flex-grow: .1;
       text-align: start;
       overflow: hidden;
+      cursor: pointer;
+      transform: scale(1);
+      transition: .5s ease;
+
+
 
       &.activeBtn{
         outline: 7px solid rgba(42, 70, 255, 1)
@@ -135,11 +141,12 @@
               }
               .btn_body{
                 width: 100%;
-                height: 60vmax;
+                height: auto;
 
                 .mobile_overview{
                   width: 100%;
                   height: 100%;
+
                 }
 
               }
@@ -173,7 +180,7 @@
 
       .project_mobile_container{
         width: 100%;
-        height: 60vmax;
+        height: auto;
         background-color: white;
         background-image: none;
         display: flex;
@@ -190,6 +197,9 @@
         .proj_link_mobile{
           color: $vasilyok;
           text-decoration: underline;
+          padding: 5%;
+          overflow-wrap: anywhere;
+
         }
         .mob_proj_desc{
           height: 65%;
@@ -215,7 +225,7 @@
         }
         .carousel{
           height: 65%;
-          width: 90%;
+          width: 100%;
           padding: 5%;
           display: flex;
           flex-direction: column;
@@ -260,6 +270,8 @@
             padding: 0;
             align-items: center;
             justify-content: center;
+            cursor: pointer;
+
 
             & div{
               border-radius: 50%;
@@ -270,6 +282,9 @@
               width: 1vmax;
               margin: 1%;
               flex-shrink: 1;
+              cursor: pointer;
+
+
 
               &.activeDot{
                 background-color: $vasilyok;
@@ -334,6 +349,7 @@
           background-repeat: no-repeat;
           background-position: center;
           opacity: 1;
+          cursor: pointer;
         }
         .shevronLeft{
           background-image: url("./../images/left-arrow.png");
@@ -342,11 +358,12 @@
           background-image: url("./../images/right-arrow.png");
         }
         .shevronLeft:hover, .shevronRight:hover{
-          transform: scale(.95);
+          transform: scale(1.1);
 
         }
         .shevronLeft:active, .shevronRight:active{
           opacity: 1;
+          transform: scale(.9);
         }
         .shevronLeft:active{
           background-image: url("./../images/left-arrow-color.png");
@@ -359,6 +376,20 @@
           pointer-events: none;
         }
       }
+      .mobileSlideButton{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-image: url("./../images/embarrassed.png");
+        z-index: 10;
+      }
+      .mobileSlideButton:active{
+        opacity: .1;
+        //transform: scale(.9);
+      }
       .dots{
         display: flex;
         align-items: center;
@@ -370,6 +401,8 @@
         height: 5%;
         margin: auto;
         padding: 0;
+        cursor: pointer;
+
 
         & div{
           border-radius: 50%;
@@ -399,6 +432,8 @@
         align-items: center;
         justify-content: flex-start;
         width: 90%;
+        align-items: center;
+        justify-content: space-between;
 
         .proj_logo{
           @include icon();
@@ -423,19 +458,93 @@
           .proj_link{
             @include regularText();
             text-decoration: underline;
+            cursor: pointer;
           }
         }
       }
       .proj_title{
         text-transform: capitalize;
-        background-color: $vasilyok;
+        //background: #2a46ff;
+        background: rgb(42,70,255);
+        background: linear-gradient(90deg, rgba(42,70,255,1) 34%, rgba(42,70,255,0.5466561624649859) 88%, rgba(255,255,255,0) 100%);
         border-radius: 5px;
         color: white;
         padding: 1%;
-        font-family: Bold;
+        font-family: Bold, sans-serif;
         font-size: calc(.5rem + 1vw);
-        margin: 3% 0;
+        margin: 3% 0 0 0;
       }
+      .switch_wrap{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+      }
+
+      .switch {
+        position: relative;
+        display: inline-block;
+        width: 30px;
+        height: 17px;
+        left: 5%;
+      }
+      .switch_title{
+        @include regularText()
+      }
+
+      .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+      }
+
+      .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: $lines;
+        -webkit-transition: .4s;
+        transition: .4s;
+      }
+
+      .slider:before {
+        position: absolute;
+        content: "";
+        height: 13px;
+        width: 13px;
+        left: 2px;
+        bottom: 2px;
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s;
+      }
+
+      input:checked + .slider {
+        background-color: $navy;
+      }
+
+      input:focus + .slider {
+        box-shadow: 0 0 1px $navy;
+      }
+
+      input:checked + .slider:before {
+        -webkit-transform: translateX(13px);
+        -ms-transform: translateX(13px);
+        transform: translateX(13px);
+      }
+
+      /* Rounded sliders */
+      .slider.round {
+        border-radius: 17px;
+        border: none;
+      }
+
+      .slider.round:before {
+        border-radius: 50%;
+      }
+
       .proj_desc{
         flex-direction: column;
         width: 94%;
@@ -447,7 +556,6 @@
 
 
         & li{
-          min-height: 10%;
           margin-bottom: 2vh;
           display: flex;
           padding-left: 1%;
@@ -455,15 +563,63 @@
 
 
           & div{
+            background-image: url("./../images/v.png");
             @include icon();
             width: 3vh;
             height: 3vh;
             margin-right: 3%;
-            background-image: url("./../images/v.png");
           }
           & span{
             width: 80%;
             @include regularText();
+          }
+        }
+      }
+
+      .proj_stack{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 10vh;
+        width: 100%;
+        flex-wrap: nowrap;
+        padding-left: 0;
+        margin: 0;
+
+        .item {
+          height: 10vh;
+          width: 2vw;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: center;
+          font-size: calc(.5rem + 1vw);
+          margin-right: 2%;
+          margin-top: 1%;
+          flex-shrink: 2;
+
+
+
+          .img {
+            width: 100%;
+            height: 50%;
+            margin: auto;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            display: flex;
+          }
+
+          .link {
+            @include regularText();
+            height: 30%;
+            flex-grow: 2;
+            font-size: 1vmax;
+            display: flex;
+            overflow: visible;
+            text-align: center;
+
           }
         }
       }

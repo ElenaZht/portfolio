@@ -1,23 +1,38 @@
-import React from 'react';
+import React, {forwardRef} from 'react';
 import './contacts.scss';
 
-function Contacts({mobile}) {
+function Contacts({mobile, switcher}, goToContactsRef) {
+    const myEmail = {title: ' my email',
+        content:
+            <form action="https://formsubmit.co/elenazht@gmail.com" method="POST">
+                <textarea name="fullname" required placeholder='your name and company'/>
+                <textarea name="email" required placeholder='your email'/>
+                <textarea  name="name" required placeholder='your message for me'/>
+                <button type="submit">Send</button>
+            </form>
+    };
+    const myPhone = {title: <div>my phone number <div>+972-**-***-8115</div></div>, content:
+        <a className='call_me_btn' href="tel: +972542878115">Call me</a>
+    };
     return (
-        <div className={mobile? 'contacts contacts_mobile':'contacts'}>
+        <div  data-sectionname="contacts" ref={goToContactsRef} className={mobile? 'contacts contacts_mobile fade-in':'contacts fade-in'}>
             <div className='title'>contacts</div>
             <div className='line'></div>
             <div className='wrapper'>
                 <div className='icons'>
-                    <div className='iconCard'>
+                    <a className='iconCard' href='' target='_target'>
                         <div className='icon linkedin'></div>
                         <span>My LinkedIn</span>
-                    </div><div className='iconCard'>
+                    </a>
+                    <a className='iconCard' href='https://github.com/ElenaZht' target='_blank'>
                         <div className='icon git'></div>
                         <span>My GitHub</span>
-                    </div><div className='iconCard'>
+                    </a>
+                    <div className='iconCard'  onClick={()=> switcher(myEmail)}>
                         <div className='icon mail'></div>
                         <span>My email</span>
-                    </div><div className='iconCard'>
+                    </div>
+                    <div className='iconCard'  onClick={()=> switcher(myPhone)}>
                         <div className='icon phone'></div>
                         <span>My phone</span>
                     </div>
@@ -37,4 +52,4 @@ function Contacts({mobile}) {
     );
 }
 
-export default Contacts;
+export default forwardRef(Contacts);

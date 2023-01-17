@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import './portfolio.scss'
 import MobileProjectOverview from "./mobile_project_overview";
 
-const MobileProjectButton = ({project}) => {
+const MobileProjectButton = ({project, switcher}) => {
     const [dropDown, setDropDown] = useState(false);
 
     return (
@@ -14,7 +14,7 @@ const MobileProjectButton = ({project}) => {
                 {dropDown&&<button className='arrow' onClick={()=> setDropDown(false)} style={{transform: 'rotate(180deg)'}}></button>}
             </div>
             {dropDown&&<div className='btn_body'>
-                <MobileProjectOverview project={project}/>
+                <MobileProjectOverview  switcher={switcher} project={project}/>
             </div>}
 
         </div>

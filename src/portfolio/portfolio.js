@@ -1,37 +1,39 @@
 import './portfolio.scss'
 import {projects} from './projects.js'
-import React, {useState} from 'react';
-import MobileProjectOverview from "./mobile_project_overview";
+import React, {forwardRef, useEffect, useState} from 'react';
 import MobileProjectButton from "./mobile_project_button";
+import BeatLoader from "react-spinners/BeatLoader";
 
-function Portfolio({mobile}) {
+
+
+function Portfolio({mobile, switcher}, goToPortfolioRef) {
 
     const [curProject, setCurProject] = useState(projects[0]);
     const [active, setActive] = useState('1');
     let [curIdx, setCurIdx] = useState(0);
     const [slides, setSlides] = useState(curProject['slides']);
-    const [slides1, setSlides1] = useState(projects[0]['slides']);
-    const [slides2, setSlides2] = useState(projects[1]['slides']);
-    const [slides3, setSlides3] = useState(projects[2]['slides']);
     let [curSlide, setCurSlide] = useState(curProject['slides'][0]);
-    let [curSlide1, setCurSlide1] = useState(projects[0]['slides'][0]);
-    let [curSlide2, setCurSlide2] = useState(projects[1]['slides'][0]);
-    let [curSlide3, setCurSlide3] = useState(projects[2]['slides'][0]);
     let [disableLeft, setDisableLeft] = useState(true);
     let [disableRight, setDisableRight] = useState(false);
-    const [dropDown1, setDropDown1] = useState(false);
-    const [dropDown2, setDropDown2] = useState(false);
-    const [dropDown3, setDropDown3] = useState(false);
-    const [dropScreenshots1, setDropScreenshots1] = useState(false);
-    const [dropScreenshots2, setDropScreenshots2] = useState(false);
-    const [dropScreenshots3, setDropScreenshots3] = useState(false);
+    const [loading, setLoading] = useState(false);
+    const [seeStack, setSeeStack] = useState(false);
+
+    useEffect(
+        ()=>{
+            setLoading(true);
+            setTimeout(()=>{
+                setLoading(false);
+            }, 5000)
+        }, []
+    );
+
 
 
     let makeDots = (length)=> {
         let dots = [];
         for(let i=0; i<length; i++){
             dots.push(
-                <div key={i} className={curIdx === i? 'activeDot' : ''}></div>
+                <div key={i} className={curIdx === i? 'activeDot' : ''} onClick={()=> dotSlideSwitch(i)}></div>
             )
         }
         return dots
@@ -48,31 +50,58 @@ function Portfolio({mobile}) {
         makeDots(project['slides'].length);
     };
     let slideSwitch = (step) => {
-        if(step < 0){
-            if(curIdx > 0){
-                setCurIdx(--curIdx);
-                setDisableRight(false);
-                if(curIdx === 0){
-                    setDisableLeft(true);
-                }
-            } else if(curIdx === 0) {
-                setDisableLeft(true);
-                setDisableRight(false)
+            // console.log('arrows', step);
 
-            }
-        } else {
-            if(curIdx < slides.length-1){
-                setCurIdx(++curIdx);
-                setDisableLeft(false);
-                if(curIdx === slides.length-1){
-                    setDisableRight(true);
+            if(step < 0){
+                if(curIdx > 0){
+                    setCurIdx(--curIdx);
+                    setDisableRight(false);
+                    if(curIdx === 0){
+                        setDisableLeft(true);
+                    }
+                } else if(curIdx === 0) {
+                    setDisableLeft(true);
+                    setDisableRight(false)
+
                 }
             } else {
-                setDisableRight(true);
-                setDisableLeft(false)
+                if(curIdx < slides.length-1){
+                    setCurIdx(++curIdx);
+                    setDisableLeft(false);
+                    if(curIdx === slides.length-1){
+                        setDisableRight(true);
+                    }
+                } else {
+                    setDisableRight(true);
+                    setDisableLeft(false)
+                }
             }
+            setCurSlide(slides[curIdx]);
+
+    };
+    let dotSlideSwitch = (id) => {
+        console.log(id)
+            setCurIdx(id);
+        if(id === 0){
+            setDisableLeft(true);
+            setDisableRight(false);
+            console.log('first')
+        } else if(id > 0){
+                setDisableRight(false);
+            }
+        if(id < slides.length-1){
+            if(id > 0){
+                setDisableLeft(false);
+            }
+            if(id === slides.length-1){
+                setDisableRight(true);
+            }
+        } else {
+            setDisableRight(true);
+            setDisableLeft(false)
         }
-        setCurSlide(slides[curIdx]);
+
+            setCurSlide(slides[id]);
     };
 
 
@@ -95,7 +124,7 @@ function Portfolio({mobile}) {
                         <div className='button_wrap'>
                             {mobile&&<div className='btn_mob'>
                                 <div className='btn_head'>
-                                    <MobileProjectButton project={projects[i]}/>
+                                    <MobileProjectButton switcher={switcher} project={projects[i]}/>
                                 </div>
                             </div>}
                             {!mobile&&<span>{projects[i].name}</span>}
@@ -106,9 +135,21 @@ function Portfolio({mobile}) {
         }
         return myProjects
     };
+    const getStack = (project) => {
+        let myStack = [];
+        for(let i=0; i<project.stack.length; i++){
+            myStack.push(
+                <li key={i} className='item'>
+                    <div className='img' style={{backgroundImage: `url(${project.stack[i].img})`}}/>
+                    {/*<a className='link'>{project.stack[i].name}</a>*/}
+                </li>
+            )
+        }
+        return myStack
+    };
 
     return (
-        <div className='portfolio' style={{height: mobile? '100%' : '90vh'}}>
+        <div data-sectionname="portfolio"  ref={goToPortfolioRef} className='portfolio fade-in' style={{height: mobile? '100%' : '90vh'}}>
             <div className={mobile?'header header_mobile':'header'}>
                 <span className='title'>portfolio</span>
                 <div className='line_h'  style={{margin: mobile? '10% auto' : '4% auto 4% auto'}}></div>
@@ -118,22 +159,44 @@ function Portfolio({mobile}) {
             </div>
             {!mobile&&<div className='window'>
                 <div className='carousel'>
-                    <div className='slide' style={{backgroundImage: `url(${curSlide})`}}>
-                        <div className={disableLeft? 'disable shevronLeft' : 'shevronLeft'} onClick={() => slideSwitch(-1)}></div>
-                        <div className={disableRight? 'disable shevronRight' : 'shevronRight'} onClick={() => slideSwitch(1)}></div>
-                    </div>
-                    <ul className='dots'>
-                        {makeDots(slides.length)}
-                    </ul>
+                    {loading?
+                        <div className='spinner_wrap'>
+                            <BeatLoader className='spinner' color="#2A46FF" size='3vmax' />
+                        </div>
+                        :
+                        <>
+                            <div className='slide' style={{backgroundImage: `url(${curSlide})`}}>
+                                <div className={disableLeft? 'disable shevronLeft' : 'shevronLeft'} onClick={() => slideSwitch(-1)}></div>
+                                <div className={disableRight? 'disable shevronRight' : 'shevronRight'} onClick={() => slideSwitch(1)}></div>
+                            </div>
+                            <ul className='dots'>
+                                {makeDots(slides.length)}
+                            </ul>
+                        </>
+
+                    }
+
+
 
                 </div>
                 <div className='review'>
                     <div className='proj_header'>
                         <div className='proj_naming'>
-                            <span className='proj_name'>{curProject.name}</span>
-                            <a className='proj_link'>{curProject.link}</a>
+                            <span className='proj_name'>{curProject.name}
+                            </span>
+                            <a className='proj_link' href={curProject.link} target='_blank'>Link to repo in GitHub</a>
+                            <div className="switch_wrap">
+                                <p className="switch_title">see the stack</p>
+                                <label className='switch'>
+                                    <input  type="checkbox"/>
+                                    <span className='slider round' onClick={()=> setSeeStack(!seeStack)}></span>
+                                </label>
+                            </div>
                         </div>
                     </div>
+                    {seeStack&&<ul className='proj_stack'>
+                        {getStack(curProject)}
+                    </ul>}
                     <div className='proj_title'>{curProject.desc}</div>
                     <ul className='proj_desc'>
                         {makeDescription(curProject, curProject.id)}
@@ -146,4 +209,4 @@ function Portfolio({mobile}) {
     );
 }
 
-export default Portfolio;
+export default forwardRef(Portfolio);
