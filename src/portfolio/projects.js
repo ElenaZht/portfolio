@@ -95,12 +95,12 @@ const projects = [{
     "link": "https://github.com/ElenaZht/coffeeBreaker",
     "desc": "two-side application for coffee house business",
     "overview": [
-      "as a client - order coffee and food from one of branches",
-      "as a client - see status of your order and history in your account",
-      "as a owner - manage menu and branches",
-      "as a owner - see statistics",
-      "as a owner - see admin’s information",
-      "as a owner - manage orders"
+      "as an client - order coffee and food from one of branches",
+      "as an client - see status of your order and history in your account",
+      "as an owner - manage menu and branches",
+      "as an owner - see statistics",
+      "as an owner - see admin’s information",
+      "as an owner - manage orders"
   ],
     "slides": [
       require("./../images/screenshots/coffeebreacker/coffee_promo.png"),
