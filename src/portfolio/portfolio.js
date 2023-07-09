@@ -141,7 +141,6 @@ function Portfolio({mobile, switcher}, goToPortfolioRef) {
             myStack.push(
                 <li key={i} className='item'>
                     <div className='img' style={{backgroundImage: `url(${project.stack[i].img})`}}/>
-                    {/*<a className='link'>{project.stack[i].name}</a>*/}
                 </li>
             )
         }
@@ -185,6 +184,7 @@ function Portfolio({mobile, switcher}, goToPortfolioRef) {
                             <span className='proj_name'>{curProject.name}
                             </span>
                             <a className='proj_link' href={curProject.link} target='_blank'>Link to repo in GitHub</a>
+                            <a className='proj_link' href={curProject.live_link} target='_blank'>Link to live project</a>
                             <div className="switch_wrap">
                                 <p className="switch_title">see the stack</p>
                                 <label className='switch'>

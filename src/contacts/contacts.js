@@ -20,7 +20,7 @@ function Contacts({mobile, switcher}, goToContactsRef) {
             <div className='line'></div>
             <div className='wrapper'>
                 <div className='icons'>
-                    <a className='iconCard' href='' target='_target'>
+                    <a className='iconCard' href='https://www.linkedin.com/in/elena-zhytomirski/' target='_target'>
                         <div className='icon linkedin'></div>
                         <span>My LinkedIn</span>
                     </a>

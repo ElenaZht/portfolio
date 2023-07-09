@@ -15,34 +15,31 @@ function Aboutme({mobile}, goToAboutRef) {
             {!mobile&&<div className='line'></div>}
 
             {dropDown&&mobile&&<div className='text'>
+                {/* MOBILE */}
+
                 <span>Nice to meet you!</span>
 
-                <span>My name is <a className='highlight'>Elena</a>, and I’m a <a className='highlight'>junior front-end developer</a> with
-                art tends from Holon. </span>
+                <span>My name is <a className='highlight'>Elena</a>, and I’m a creative and mission-oriented  <a className='highlight'>junior front-end developer </a>
+                    with experience in React, Angular 2+, HTML, CSS, and JavaScript from Holon. </span>
 
                 <span>
-                    I have an <a className='highlight'>engineer degree</a> in industry so I see <a className='highlight'>coding</a> very similar to enterprise
-                creating that helps me understand processes and appreciate documentation.
+                    I am passionate about designing intuitive and responsive user interfaces that not only look great, but also align with client's values and goals.
+                    I am excited to explore new opportunities that allow me to use my creativity and technical skills.
                 </span>
-
-                <span><a className='highlight'>I’m looking forward to being part of creating and developing useful things together!</a></span>
             </div>}
             {!mobile&&<div className='text'>
+                {/* LAPTOP */}
                 <span>Nice to meet you!</span>
 
-                <span>My name is <a className='highlight'>Elena</a>, and I’m a <a className='highlight'>junior front-end developer</a> with
-                art tends from Holon. I’m excited about the implementation
-                    of beautiful things and life-like designs. I also enjoy creating designs on my own.</span>
+                <span>My name is <a className='highlight'>Elena</a>, and I’m a creative and mission-oriented  <a className='highlight'>junior front-end developer</a>
+                    with experience in React, Angular 2+, HTML, CSS, and JavaScript from Holon. </span>
 
-                <span>It's so amazing to develop a product from the ground to a living working app!
-                    I have an <a className='highlight'>engineer degree</a> in industry so I see <a className='highlight'>coding</a> very similar to enterprise
-                creating that helps me understand processes and appreciate documentation.
-                I’m fond of anthropology and  archeology, vocal, and obsessed with cats.I also
-                    can’t live without music.</span>
-                <span>My soul-mate is also a high-level backend developer
-                    who inspires me in my profession.</span>
+                <span> I am passionate about designing intuitive and responsive user interfaces that not only look great, but also align with client's values and goals.
+                    I am excited to explore new opportunities that allow me to use my creativity and technical skills.</span>
+                <span>I believe in using technology for good, and I will be dedicated to working with organizations that share this mission. Whether it's improving access
+                    to education or advancing sustainability initiatives, I am committed to using my skills to make a positive impact.</span>
 
-                <span><a className='highlight'>I’m looking forward to being part of creating and developing useful things together!</a></span>
+
             </div>}
             {!mobile&&<div className='line'></div>}
             {dropDown&&mobile&&<div className='photo'></div>}

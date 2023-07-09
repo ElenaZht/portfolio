@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import './portfolio.scss'
 
-//rsc new component
 
 const MobileProjectOverview = ({project, switcher}) => {
     let [curSlide, setCurSlide] = useState(project['slides'][0]);
@@ -49,30 +48,16 @@ const MobileProjectOverview = ({project, switcher}) => {
         }
         setCurSlide(project['slides'][curIdx]);
     };
-    // const carouselObj = {title: '',
-    //     content:
-    //             <div className="img_dialog_body">
-    //                 <div className='project_mobile_container'>
-    //                     <div className='carousel'>
-    //                         <div className='slide' style={{backgroundImage: `url(${curSlide})`}}  onClick={()=> {setImgDialog(true)}}>
-    //                             <div className={disableLeft? 'disable shevronLeft' : 'shevronLeft'} onClick={() => slideSwitch(-1)}></div>
-    //                             <div className={disableRight? 'disable shevronRight' : 'shevronRight'} onClick={() => slideSwitch(1)}></div>
-    //                         </div>
-    //                     </div>
-    //                 </div>
-    //             </div>
-    // };
+
     return (
         <div className='mobile_overview'>
             <div className='project_mobile_container'>
                 <span className='proj_name proj_name_mobile'>{project.name}</span>
-                <a className='proj_link proj_link_mobile'>{project.link}</a>
+                <a className='proj_link proj_link_mobile' href={project.link}>Link to GitHub repo</a>
+                <a className='proj_link proj_link_mobile' href={project.live_link}>Link to live project</a>
                 <ul className='mob_proj_desc'>
                     {makeDescription(project)}
                 </ul>
-                {/*<div className='mobileSlideButton' style={{backgroundImage: `url(${project['slides'][0]})`, height: '30vh', width: '100%'}}  onClick={()=> {*/}
-                {/*    switcher(carouselObj)}}>*/}
-                {/*</div>*/}
                 <div className='mobileSlideButton' style={{backgroundImage: `url(${project['slides'][0]})`, height: '30vh', width: '100%'}}>
                 </div>
 

@@ -29,7 +29,7 @@ const Navbar = ({mobile, scrolled, handler, current, switcher}) => {
                 <WhatsappShareButton className='link_button'  url='www.myportfolio.com'>
                     <WhatsappIcon round={true} size={32}/>
                 </WhatsappShareButton>
-                <LinkedinShareButton className='link_button'  url='www.myportfolio.com'>
+                <LinkedinShareButton className='link_button'  url='https://www.linkedin.com/in/elena-zhytomirski/'>
                     <LinkedinIcon round={true} size={32}/>
                 </LinkedinShareButton>
                 <FacebookShareButton  className='link_button'  url='www.myportfolio.com'>

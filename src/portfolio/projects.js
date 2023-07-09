@@ -3,6 +3,7 @@ const projects = [{
   "logo": require("./../images/screenshots/weather/logoweatherlogo.png"),
   "name": "weather",
   "link": "https://github.com/ElenaZht/Weather",
+  "live_link":"http://weather.themove.fun.s3-website-us-east-1.amazonaws.com",
   "desc": "application for monitoring current weather and latest news",
   "overview": [
     "current weather, world news, and local news for many countries",
@@ -48,6 +49,7 @@ const projects = [{
     "logo": require("./../images/screenshots/ilcarro/ilcarrplogo.png"),
     "name": "il Carro",
     "link": "https://github.com/ElenaZht/ilCarro-frontend",
+    "live_link":"http://il-carro.themove.fun.s3-website-us-east-1.amazonaws.com",
     "desc": "application-aggregator for renting private cars",
     "overview": [
       "offer your car for renting",
@@ -93,6 +95,7 @@ const projects = [{
     "logo": require("./../images/screenshots/coffeebreacker/coffee_logo.png"),
     "name": "Coffee Breacker",
     "link": "https://github.com/ElenaZht/coffeeBreaker",
+    "live_link":"http://coffee-breaker.themove.fun.s3-website-us-east-1.amazonaws.com",
     "desc": "two-side application for coffee house business",
     "overview": [
       "as an client - order coffee and food from one of branches",

@@ -29,7 +29,7 @@ const Home = ({mobile, scrolled, goWorks, goAbout, goDown, switcher}, goToHomeRe
                 <div className={mobile? 'secondTitle secondTitle_mobile':'secondTitle'}>Hello! My name is <span onClick={()=> goAbout()}>elena zhytomirskaya</span></div>
                 <button onClick={()=>goWorks()} className={mobile? 'button_mobile':''}><p>My works</p></button>
                 <div className={mobile? 'icons icons_mobile':'icons'}>
-                    <a href='' target='_blank' className='linkedIn'></a>
+                    <a href='https://www.linkedin.com/in/elena-zhytomirski/' target='_blank' className='linkedIn'></a>
                     <a href='https://github.com/ElenaZht' target='_blank' className='gitHub'></a>
                     <i className='email' onClick={()=> switcher(myEmail)}></i>
                     <i className='phone' onClick={()=> switcher(myPhone)}></i>
