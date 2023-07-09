@@ -1,5 +1,6 @@
 import React, {forwardRef} from 'react';
 import './contacts.scss';
+import {Link} from "@react-email/link";
 
 function Contacts({mobile, switcher}, goToContactsRef) {
     const myEmail = {title: ' my email',
@@ -28,8 +29,8 @@ function Contacts({mobile, switcher}, goToContactsRef) {
                         <div className='icon git'></div>
                         <span>My GitHub</span>
                     </a>
-                    <div className='iconCard'  onClick={()=> switcher(myEmail)}>
-                        <div className='icon mail'></div>
+                    <div className='iconCard'>
+                        <Link className='icon mail' href="mailto:elenazht@gmail.com"></Link>
                         <span>My email</span>
                     </div>
                     <div className='iconCard'  onClick={()=> switcher(myPhone)}>

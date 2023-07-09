@@ -195,7 +195,7 @@
                 @include git();
             }
             .email{
-                @include mail()
+                @include mail();
             }
             .phone{
                 @include phone();

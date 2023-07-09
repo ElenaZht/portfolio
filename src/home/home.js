@@ -1,5 +1,6 @@
 import React, {forwardRef, useState} from 'react';
 import "./home.scss";
+import { Link } from '@react-email/link';
 
 
 const Home = ({mobile, scrolled, goWorks, goAbout, goDown, switcher}, goToHomeRef) => {
@@ -31,7 +32,7 @@ const Home = ({mobile, scrolled, goWorks, goAbout, goDown, switcher}, goToHomeRe
                 <div className={mobile? 'icons icons_mobile':'icons'}>
                     <a href='https://www.linkedin.com/in/elena-zhytomirski/' target='_blank' className='linkedIn'></a>
                     <a href='https://github.com/ElenaZht' target='_blank' className='gitHub'></a>
-                    <i className='email' onClick={()=> switcher(myEmail)}></i>
+                    <Link className='email' href="mailto:elenazht@gmail.com"></Link>
                     <i className='phone' onClick={()=> switcher(myPhone)}></i>
                 </div>
                 {!mobile&&<p className={scrolled? 'disappeared':''} onClick={()=> goDown()} style={{cursor: 'pointer'}}>Skroll down &#8594;</p>}
