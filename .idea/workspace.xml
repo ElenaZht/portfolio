@@ -3,14 +3,119 @@
   <component name="ChangeListManager">
     <list default="true" id="f3f5ba38-6aca-49c6-88f8-75e9ff12d19f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/coffee_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/coffee_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/down-arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/down-arrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/email_white.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/email_white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/embarrassed.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/embarrassed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/git2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/git2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/github_white.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/github_white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/in.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/in.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/left-arrow-color.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/left-arrow-color.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/left-arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/left-arrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/linkedin_white.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/linkedin_white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/mail2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/mail2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/mobBackground1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/mobBackground1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/mobBackground2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/mobBackground2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/mobBackground3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/mobBackground3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/mob_background.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/mob_background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/my_photo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/my_photo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/nav/brain.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/nav/brain.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/nav/brain_active.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/nav/brain_active.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/nav/burger-bar.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/nav/burger-bar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/nav/chat._active.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/nav/chat._active.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/nav/chat.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/nav/chat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/nav/close.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/nav/close.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/nav/close_active.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/nav/close_active.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/nav/facebook_link.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/nav/facebook_link.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/nav/home.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/nav/home.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/nav/home_active.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/nav/home_active.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/nav/linkedin_link.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/nav/linkedin_link.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/nav/menu.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/nav/menu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/nav/menu_active.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/nav/menu_active.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/nav/portfolio_active.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/nav/portfolio_active.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/nav/share.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/nav/share.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/nav/share_active.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/nav/share_active.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/nav/whatsapp_link.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/nav/whatsapp_link.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/nav/woman.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/nav/woman.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/nav/woman_active.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/nav/woman_active.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/nav_collapse.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/nav_collapse.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/phone2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/phone2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/phone_i.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/phone_i.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/right-arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/right-arrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/170.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/170.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/175.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/175.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/176.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/176.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/177.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/177.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/180.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/180.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/182.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/182.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/183.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/183.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/185.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/185.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/186.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/186.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/187.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/187.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/188.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/188.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/189.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/189.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/190.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/190.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/192.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/193.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/193.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/194.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/194.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/195.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/195.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/196.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/196.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/197.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/197.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/199.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/199.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/202.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/202.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/204.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/204.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/205.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/205.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/206.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/206.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/coffee_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/coffee_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/coffee_promo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/coffeebreacker/coffee_promo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/ilcarro/223.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/ilcarro/223.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/ilcarro/224.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/ilcarro/224.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/ilcarro/225.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/ilcarro/225.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/ilcarro/227.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/ilcarro/227.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/ilcarro/229.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/ilcarro/229.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/ilcarro/230.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/ilcarro/230.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/ilcarro/231.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/ilcarro/231.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/ilcarro/232.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/ilcarro/232.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/ilcarro/233.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/ilcarro/233.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/ilcarro/234.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/ilcarro/234.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/ilcarro/235.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/ilcarro/235.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/ilcarro/236.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/ilcarro/236.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/ilcarro/237.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/ilcarro/237.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/ilcarro/ilcarro_promo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/ilcarro/ilcarro_promo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/ilcarro/ilcarrplogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/ilcarro/ilcarrplogo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/weather/209.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/weather/209.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/weather/210.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/weather/210.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/weather/211.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/weather/211.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/weather/213.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/weather/213.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/weather/215.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/weather/215.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/weather/216.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/weather/216.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/weather/217.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/weather/217.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/weather/218.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/weather/218.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/weather/219.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/weather/219.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/weather/220.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/weather/220.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/weather/221.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/weather/221.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/weather/222.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/weather/222.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/weather/logoweatherlogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/weather/logoweatherlogo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/weather/weather_promo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/weather/weather_promo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/weather/weather_promo_night.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/screenshots/weather/weather_promo_night.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/stack/angular.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/stack/angular.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/stack/aws.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/stack/aws.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/stack/bootstrap.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/stack/bootstrap.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/stack/css3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/stack/css3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/stack/figma.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/stack/figma.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/stack/firebase.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/stack/firebase.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/stack/github.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/stack/github.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/stack/google-maps.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/stack/google-maps.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/stack/googleapi.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/stack/googleapi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/stack/html5.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/stack/html5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/stack/i18n.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/stack/i18n.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/stack/jquery.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/stack/jquery.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/stack/js-file.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/stack/js-file.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/stack/json-file.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/stack/json-file.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/stack/material_design.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/stack/material_design.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/stack/news_api.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/stack/news_api.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/stack/open_weather.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/stack/open_weather.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/stack/postman.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/stack/postman.png" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,55 +127,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/images/screenshots/coffeebreacker/193.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/images/screenshots/coffeebreacker/194.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/images/screenshots/coffeebreacker/195.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/images/screenshots/coffeebreacker/196.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/images/screenshots/coffeebreacker/197.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/images/screenshots/coffeebreacker/199.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/images/screenshots/coffeebreacker/202.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/images/screenshots/coffeebreacker/204.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/images/screenshots/coffeebreacker/205.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/images/screenshots/coffeebreacker/206.png">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="512">
+              <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -223,14 +287,6 @@
               <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="screenshots" type="462c0819:PsiDirectoryNode" />
-              <item name="coffeebreacker" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="navbar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -250,7 +306,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/images" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -263,16 +319,17 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Елена\Documents\WEB Learning\codding\portfolio\src\images\screenshots\coffeebreacker" />
       <recent name="C:\Users\Елена\Documents\WEB Learning\codding\portfolio\src\images\screenshots\ilcarro" />
       <recent name="C:\Users\Елена\Documents\WEB Learning\codding\portfolio\src\images" />
       <recent name="C:\Users\Елена\Documents\WEB Learning\codding\portfolio\src\images\nav" />
       <recent name="C:\Users\Елена\Documents\WEB Learning\codding\portfolio\src" />
-      <recent name="C:\Users\Елена\Documents\WEB Learning\codding\portfolio\src\images\stack" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Елена\Documents\WEB Learning\codding\portfolio\src\images" />
-      <recent name="C:\Users\Елена\Documents\WEB Learning\codding\portfolio\src\images\screenshots\ilcarro" />
+      <recent name="C:\Users\Елена\Documents\WEB Learning\codding\portfolio\src\images\stack" />
       <recent name="C:\Users\Елена\Documents\WEB Learning\codding\portfolio\src\images\screenshots\weather" />
+      <recent name="C:\Users\Елена\Documents\WEB Learning\codding\portfolio\src\images\screenshots\ilcarro" />
       <recent name="C:\Users\Елена\Documents\WEB Learning\codding\portfolio\src\images\screenshots\coffeebreacker" />
     </key>
   </component>
@@ -288,7 +345,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.deploy">
+  <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -351,7 +408,8 @@
       <workItem from="1687701042365" duration="1218000" />
       <workItem from="1688882831281" duration="10036000" />
       <workItem from="1690272389688" duration="4389000" />
-      <workItem from="1691674379862" duration="279000" />
+      <workItem from="1691674379862" duration="996000" />
+      <workItem from="1693732111947" duration="1066000" />
     </task>
     <task id="LOCAL-00001" summary="- App created&#10;- nav bar component created&#10;- home component created&#10;- skills component created with slots for technologies&#10;- about me component created">
       <created>1667735741073</created>
@@ -409,11 +467,18 @@
       <option name="project" value="LOCAL" />
       <updated>1690277257116</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="- new screenshots added.">
+      <created>1691674678873</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1691674678873</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="388767000" />
+    <option name="totallyTimeSpent" value="390550000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -425,15 +490,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-148" width="1936" height="1056" extended-state="6" />
+    <frame x="-1928" y="-148" width="1936" height="1056" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.91312385" visible="true" weight="0.1406744" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.9118825" visible="true" weight="0.1406744" />
       <window_info id="Structure" order="1" sideWeight="0.50073636" side_tool="true" weight="0.24973656" />
-      <window_info id="npm" order="2" sideWeight="0.086876154" side_tool="true" visible="true" weight="0.1406744" />
+      <window_info id="npm" order="2" sideWeight="0.08811749" side_tool="true" visible="true" weight="0.1406744" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925372" weight="0.16777778" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925372" visible="true" weight="0.16777778" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -442,7 +507,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.5088889" />
       <window_info anchor="bottom" id="GraphQL" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50074625" side_tool="true" weight="0.23916811" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3988889" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3988889" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="bottom" id="TypeScript" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -501,16 +566,10 @@
     <MESSAGE value="- linkedIn url added.&#10;- about me section updated.&#10;- links to live projects added." />
     <MESSAGE value="- email agent integrated(by link)." />
     <MESSAGE value="- new links and screenshots added." />
-    <option name="LAST_COMMIT_MESSAGE" value="- new links and screenshots added." />
+    <MESSAGE value="- new screenshots added." />
+    <option name="LAST_COMMIT_MESSAGE" value="- new screenshots added." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/aboutme/aboutme.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="58" column="47" selection-start-line="58" selection-start-column="47" selection-end-line="58" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/portfolio/mobile_project_overview.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="935">
@@ -518,13 +577,6 @@
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="11" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -722,6 +774,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/images/screenshots/coffeebreacker/206.png">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
