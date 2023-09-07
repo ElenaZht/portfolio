@@ -6,11 +6,11 @@ const projects = [{
   "live_link":"http://weather.themove.fun.s3-website-us-east-1.amazonaws.com",
   "desc": "application for monitoring current weather and latest news",
   "overview": [
-    "current weather, world news, and local news for many countries",
+    "current weather, world news, and local news for various countries",
     "search and save regions of your interest",
     "automatically  recognize your  region",
     "authorization with google account",
-    "automatically  recognize time of the day according with sunrise/sunset time,what affects the theme of the app."
+    "Automatically adjust theme to the time of day"
   ],
   "slides": [
     require("./../images/screenshots/weather/weather_promo.png"),
@@ -52,14 +52,14 @@ const projects = [{
     "live_link":"https://il-carro.themove.fun",
     "desc": "application-aggregator for renting private cars",
     "overview": [
-      "offer your car for renting",
-      "search relevant car on map or in list using sorting by parameters",
-      "see most high-rated cars",
-      "book car to the desired date and time in the calendar",
-      "manage your rented out cars and bookings in your cabinet",
+      "offer your car for rent",
+      "search for a relevant car on map or in list using sorting by parameters",
+      "View top-rated cars",
+      "book a car for a desired date and time in the calendar",
+      "manage your cars and bookings in your cabinet",
       "see history of your renting",
-      "approve returning car",
-      "left feedback and rate cars"
+      "approve returning a car",
+      "leave feedback and rate cars"
   ],
     "slides": [
     require("./../images/screenshots/ilcarro/ilcarro_promo.png"),
@@ -78,7 +78,7 @@ const projects = [{
     require("./../images/screenshots/ilcarro/237.png")
   ],
     "stack": [
-      {'name' : 'Angular2+', 'img' : require('./../images/stack/angular.png')},
+      {'name' : 'Angular', 'img' : require('./../images/stack/angular.png')},
       {'name' : 'CSS3', 'img' : require('./../images/stack/css3.png')},
       {'name' : 'JavaScript', 'img' : require('./../images/stack/js-file.png')},
       {'name' : 'REST API', 'img' : require('./../images/stack/restapi.png')},
@@ -93,17 +93,13 @@ const projects = [{
 },
   {  "id": "3",
     "logo": require("./../images/screenshots/coffeebreacker/coffee_logo.png"),
-    "name": "Coffee Breacker",
+    "name": "Coffee Breaker",
     "link": "https://github.com/ElenaZht/coffeeBreaker",
     "live_link":"http://coffee-breaker.themove.fun.s3-website-us-east-1.amazonaws.com", // todo https link
     "desc": "two-side application for coffee house business",
     "overview": [
-      "as an client - order coffee and food from one of branches",
-      "as an client - see status of your order and history in your account",
-      "as an owner - manage menu and branches",
-      "as an owner - see statistics",
-      "as an owner - see admin’s information",
-      "as an owner - manage orders"
+      "as a client - order coffee and food from one of branches, see status of your order and history in your account",
+      "as an owner - manage menu and branches, see statistics, see admin’s information, manage orders"
   ],
     "slides": [
       require("./../images/screenshots/coffeebreacker/coffee_promo.png"),
@@ -133,7 +129,7 @@ const projects = [{
       require("./../images/screenshots/coffeebreacker/206.png")
      ],
     "stack": [
-      {'name' : 'Angular2+', 'img' : require('./../images/stack/angular.png')},
+      {'name' : 'Angular', 'img' : require('./../images/stack/angular.png')},
       {'name' : 'CSS3', 'img' : require('./../images/stack/css3.png')},
       {'name' : 'JavaScript', 'img' : require('./../images/stack/js-file.png')},
       {'name' : 'HTML5', 'img' : require('./../images/stack/html5.png')},

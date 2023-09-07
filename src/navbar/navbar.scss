@@ -236,9 +236,6 @@
     & div.navLink {
         margin: 5%;
         @include icon();
-        width: 5vmax;
-        height: 5vmax;
-        background-image: url("./../images/nav/share.png");
         overflow: visible;
     }
 
@@ -270,6 +267,8 @@
         font-size: 4vmax;
         padding: 5%;
         border-radius: 1rem;
+        height: 5vmax;
+        line-height: 1.5;
 
 
         &[type="active"]{
@@ -278,6 +277,14 @@
           background-color: $vasilyok;
         }
       }
+        button{
+            border: solid;
+            background-color: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 10%;
+        }
 
     }
 
@@ -287,8 +294,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 20vmax;
-    height: 80%;
+
     flex-wrap: wrap;
 
     button{

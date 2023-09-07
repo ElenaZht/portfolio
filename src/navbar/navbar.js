@@ -120,8 +120,8 @@ const Navbar = ({mobile, scrolled, handler, current, switcher}) => {
                     <div type={active === 'about'? "active" : ""} className='navAbout' onClick={()=> activate('about')}>About me</div>
                     <div  type={active === 'portfolio'? "active" : ""} className='navPortfolio' onClick={()=> activate('portfolio')}>Portfolio</div>
                     <div type={active === 'contacts'? "active" : ""} className='navContacts' onClick={()=> activate('contacts')}>Contacts</div>
-                    <div onClick={()=> activate('link')} type={active === 'link'? "active" : ""} className='navLink'></div>
-                    <button className="closeNavCollapse" onClick={()=> setNavCollaps(false)}>close</button>
+                    <div onClick={()=> activate('link')} type={active === 'link'? "active" : ""} className='navLink'>Share</div>
+                    <button className="closeNavCollapse" onClick={()=> setNavCollaps(false)}>Close</button>
                 </div>}
 
             </div>}

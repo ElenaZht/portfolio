@@ -13,6 +13,8 @@ function Aboutme({mobile}, goToAboutRef) {
             </div>}
             {!mobile&&<div className='title'>about me</div>}
             {!mobile&&<div className='line'></div>}
+            {dropDown&&mobile&&<div className='photo'></div>}
+            {!mobile&&<div className='photo'></div>}
 
             {dropDown&&mobile&&<div className='text'>
                 {/* MOBILE */}
@@ -42,8 +44,7 @@ function Aboutme({mobile}, goToAboutRef) {
 
             </div>}
             {!mobile&&<div className='line'></div>}
-            {dropDown&&mobile&&<div className='photo'></div>}
-            {!mobile&&<div className='photo'></div>}
+
         </div>
     );
 }
