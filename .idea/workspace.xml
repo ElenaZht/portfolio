@@ -4,14 +4,6 @@
     <list default="true" id="f3f5ba38-6aca-49c6-88f8-75e9ff12d19f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aboutme/aboutme.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/aboutme/aboutme.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aboutme/aboutme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/aboutme/aboutme.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dialog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/navbar/navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/navbar/navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/navbar/navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/navbar/navbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/projects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/skills/skills.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/skills.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/skills/stack.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/stack.js" afterDir="false" />
     </list>
     <list id="092da8f8-b99b-4b40-9267-9dc677159fc4" name="- responsibility improved." comment="">
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
@@ -52,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/aboutme/aboutme.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+            <state relative-caret-position="409">
+              <caret line="45" column="52" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -82,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="266" column="8" selection-start-line="266" selection-start-column="8" selection-end-line="266" selection-end-column="8" />
+            <state relative-caret-position="514">
+              <caret line="325" column="9" selection-start-line="325" selection-start-column="9" selection-end-line="325" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -100,7 +92,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/navbar/navbar.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="505">
@@ -149,9 +141,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>iconCard</find>
-      <find>switcher</find>
-      <find>.aboutme</find>
       <find>.title</find>
       <find>@media</find>
       <find>rem</find>
@@ -179,6 +168,9 @@
       <find>dialog_container</find>
       <find>button</find>
       <find>breacker</find>
+      <find>5%</find>
+      <find>dialog_title</find>
+      <find>dialog_conta</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -219,81 +211,35 @@
         <option value="$PROJECT_DIR$/src/skills/stack.js" />
         <option value="$PROJECT_DIR$/src/skills/skills.scss" />
         <option value="$PROJECT_DIR$/src/dialog.js" />
-        <option value="$PROJECT_DIR$/src/App.scss" />
-        <option value="$PROJECT_DIR$/src/aboutme/aboutme.js" />
         <option value="$PROJECT_DIR$/src/aboutme/aboutme.scss" />
         <option value="$PROJECT_DIR$/src/portfolio/projects.js" />
         <option value="$PROJECT_DIR$/src/navbar/navbar.js" />
         <option value="$PROJECT_DIR$/src/navbar/navbar.scss" />
+        <option value="$PROJECT_DIR$/src/aboutme/aboutme.js" />
+        <option value="$PROJECT_DIR$/src/App.scss" />
       </list>
     </option>
   </component>
   <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/navbar/navbar.js">
-      <ranges>
-        <range start1="0" end1="1" start2="0" end2="1" changelist="092da8f8-b99b-4b40-9267-9dc677159fc4" />
-        <range start1="52" end1="53" start2="52" end2="52" changelist="092da8f8-b99b-4b40-9267-9dc677159fc4" />
-        <range start1="122" end1="124" start2="121" end2="123" changelist="f3f5ba38-6aca-49c6-88f8-75e9ff12d19f" />
-      </ranges>
-    </file>
     <file path="$PROJECT_DIR$/src/App.scss">
       <ranges>
-        <range start1="92" end1="93" start2="92" end2="93" changelist="092da8f8-b99b-4b40-9267-9dc677159fc4" />
-        <range start1="133" end1="134" start2="133" end2="134" changelist="092da8f8-b99b-4b40-9267-9dc677159fc4" />
-        <range start1="165" end1="166" start2="165" end2="166" changelist="092da8f8-b99b-4b40-9267-9dc677159fc4" />
-        <range start1="185" end1="186" start2="185" end2="186" changelist="092da8f8-b99b-4b40-9267-9dc677159fc4" />
-        <range start1="221" end1="221" start2="221" end2="225" changelist="092da8f8-b99b-4b40-9267-9dc677159fc4" />
-        <range start1="248" end1="249" start2="252" end2="253" changelist="f3f5ba38-6aca-49c6-88f8-75e9ff12d19f" />
-        <range start1="259" end1="259" start2="263" end2="269" changelist="f3f5ba38-6aca-49c6-88f8-75e9ff12d19f" />
-        <range start1="270" end1="271" start2="280" end2="281" changelist="092da8f8-b99b-4b40-9267-9dc677159fc4" />
-        <range start1="281" end1="281" start2="291" end2="294" changelist="f3f5ba38-6aca-49c6-88f8-75e9ff12d19f" />
-        <range start1="290" end1="290" start2="303" end2="308" changelist="f3f5ba38-6aca-49c6-88f8-75e9ff12d19f" />
-        <range start1="312" end1="313" start2="330" end2="331" changelist="092da8f8-b99b-4b40-9267-9dc677159fc4" />
-        <range start1="362" end1="363" start2="380" end2="381" changelist="092da8f8-b99b-4b40-9267-9dc677159fc4" />
-        <range start1="388" end1="393" start2="406" end2="407" changelist="092da8f8-b99b-4b40-9267-9dc677159fc4" />
-        <range start1="395" end1="397" start2="409" end2="410" changelist="092da8f8-b99b-4b40-9267-9dc677159fc4" />
-        <range start1="430" end1="431" start2="443" end2="444" changelist="092da8f8-b99b-4b40-9267-9dc677159fc4" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/src/aboutme/aboutme.scss">
-      <ranges>
-        <range start1="6" end1="6" start2="6" end2="8" changelist="092da8f8-b99b-4b40-9267-9dc677159fc4" />
-        <range start1="11" end1="11" start2="13" end2="15" changelist="092da8f8-b99b-4b40-9267-9dc677159fc4" />
-        <range start1="16" end1="16" start2="20" end2="21" changelist="f3f5ba38-6aca-49c6-88f8-75e9ff12d19f" />
-        <range start1="33" end1="34" start2="38" end2="39" changelist="f3f5ba38-6aca-49c6-88f8-75e9ff12d19f" />
-        <range start1="46" end1="47" start2="51" end2="52" changelist="092da8f8-b99b-4b40-9267-9dc677159fc4" />
-        <range start1="49" end1="49" start2="54" end2="55" changelist="f3f5ba38-6aca-49c6-88f8-75e9ff12d19f" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/src/skills/skills.scss">
-      <ranges>
-        <range start1="5" end1="6" start2="5" end2="5" changelist="092da8f8-b99b-4b40-9267-9dc677159fc4" />
-        <range start1="7" end1="7" start2="6" end2="8" changelist="092da8f8-b99b-4b40-9267-9dc677159fc4" />
-        <range start1="35" end1="35" start2="36" end2="38" changelist="092da8f8-b99b-4b40-9267-9dc677159fc4" />
-        <range start1="39" end1="40" start2="42" end2="43" changelist="092da8f8-b99b-4b40-9267-9dc677159fc4" />
-        <range start1="69" end1="70" start2="72" end2="73" changelist="092da8f8-b99b-4b40-9267-9dc677159fc4" />
-        <range start1="83" end1="83" start2="86" end2="88" changelist="092da8f8-b99b-4b40-9267-9dc677159fc4" />
-        <range start1="92" end1="92" start2="97" end2="99" changelist="f3f5ba38-6aca-49c6-88f8-75e9ff12d19f" />
-        <range start1="107" end1="108" start2="114" end2="115" changelist="f3f5ba38-6aca-49c6-88f8-75e9ff12d19f" />
-        <range start1="119" end1="120" start2="126" end2="127" changelist="f3f5ba38-6aca-49c6-88f8-75e9ff12d19f" />
-        <range start1="124" end1="124" start2="131" end2="135" changelist="f3f5ba38-6aca-49c6-88f8-75e9ff12d19f" />
-        <range start1="134" end1="135" start2="145" end2="146" changelist="092da8f8-b99b-4b40-9267-9dc677159fc4" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/src/navbar/navbar.scss">
-      <ranges>
-        <range start1="9" end1="9" start2="9" end2="11" changelist="092da8f8-b99b-4b40-9267-9dc677159fc4" />
-        <range start1="14" end1="15" start2="16" end2="17" changelist="092da8f8-b99b-4b40-9267-9dc677159fc4" />
-        <range start1="19" end1="20" start2="21" end2="22" changelist="092da8f8-b99b-4b40-9267-9dc677159fc4" />
-        <range start1="25" end1="25" start2="27" end2="29" changelist="092da8f8-b99b-4b40-9267-9dc677159fc4" />
-        <range start1="46" end1="46" start2="50" end2="51" changelist="092da8f8-b99b-4b40-9267-9dc677159fc4" />
-        <range start1="78" end1="80" start2="83" end2="85" changelist="092da8f8-b99b-4b40-9267-9dc677159fc4" />
-        <range start1="117" end1="119" start2="122" end2="124" changelist="092da8f8-b99b-4b40-9267-9dc677159fc4" />
-        <range start1="238" end1="241" start2="243" end2="243" changelist="f3f5ba38-6aca-49c6-88f8-75e9ff12d19f" />
-        <range start1="269" end1="270" start2="271" end2="272" changelist="092da8f8-b99b-4b40-9267-9dc677159fc4" />
-        <range start1="272" end1="272" start2="274" end2="276" changelist="f3f5ba38-6aca-49c6-88f8-75e9ff12d19f" />
-        <range start1="280" end1="280" start2="284" end2="292" changelist="f3f5ba38-6aca-49c6-88f8-75e9ff12d19f" />
-        <range start1="289" end1="291" start2="301" end2="302" changelist="f3f5ba38-6aca-49c6-88f8-75e9ff12d19f" />
+        <range start1="81" end1="81" start2="81" end2="88" changelist="f3f5ba38-6aca-49c6-88f8-75e9ff12d19f" />
+        <range start1="92" end1="93" start2="99" end2="100" changelist="092da8f8-b99b-4b40-9267-9dc677159fc4" />
+        <range start1="112" end1="112" start2="119" end2="122" changelist="f3f5ba38-6aca-49c6-88f8-75e9ff12d19f" />
+        <range start1="118" end1="118" start2="128" end2="130" changelist="f3f5ba38-6aca-49c6-88f8-75e9ff12d19f" />
+        <range start1="133" end1="134" start2="145" end2="146" changelist="092da8f8-b99b-4b40-9267-9dc677159fc4" />
+        <range start1="165" end1="166" start2="177" end2="178" changelist="092da8f8-b99b-4b40-9267-9dc677159fc4" />
+        <range start1="185" end1="186" start2="197" end2="198" changelist="092da8f8-b99b-4b40-9267-9dc677159fc4" />
+        <range start1="208" end1="209" start2="220" end2="221" changelist="f3f5ba38-6aca-49c6-88f8-75e9ff12d19f" />
+        <range start1="221" end1="221" start2="233" end2="237" changelist="092da8f8-b99b-4b40-9267-9dc677159fc4" />
+        <range start1="264" end1="264" start2="280" end2="285" changelist="f3f5ba38-6aca-49c6-88f8-75e9ff12d19f" />
+        <range start1="276" end1="277" start2="297" end2="298" changelist="092da8f8-b99b-4b40-9267-9dc677159fc4" />
+        <range start1="304" end1="304" start2="325" end2="326" changelist="f3f5ba38-6aca-49c6-88f8-75e9ff12d19f" />
+        <range start1="326" end1="327" start2="348" end2="349" changelist="092da8f8-b99b-4b40-9267-9dc677159fc4" />
+        <range start1="376" end1="377" start2="398" end2="399" changelist="092da8f8-b99b-4b40-9267-9dc677159fc4" />
+        <range start1="402" end1="407" start2="424" end2="425" changelist="092da8f8-b99b-4b40-9267-9dc677159fc4" />
+        <range start1="409" end1="411" start2="427" end2="428" changelist="092da8f8-b99b-4b40-9267-9dc677159fc4" />
+        <range start1="444" end1="445" start2="461" end2="462" changelist="092da8f8-b99b-4b40-9267-9dc677159fc4" />
       </ranges>
     </file>
   </component>
@@ -396,7 +342,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="npm.deploy">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -461,7 +407,7 @@
       <workItem from="1688882831281" duration="10036000" />
       <workItem from="1690272389688" duration="4389000" />
       <workItem from="1691674379862" duration="996000" />
-      <workItem from="1693732111947" duration="16292000" />
+      <workItem from="1693732111947" duration="17404000" />
     </task>
     <task id="LOCAL-00001" summary="- App created&#10;- nav bar component created&#10;- home component created&#10;- skills component created with slots for technologies&#10;- about me component created">
       <created>1667735741073</created>
@@ -547,11 +493,25 @@
       <option name="project" value="LOCAL" />
       <updated>1693810810370</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="- interface improvements.">
+      <created>1694079291639</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1694079291639</updated>
+    </task>
+    <task id="LOCAL-00014" summary="- interface improvements.">
+      <created>1694079444360</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1694079444360</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="405776000" />
+    <option name="totallyTimeSpent" value="406888000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -566,13 +526,13 @@
     <frame x="-1928" y="-148" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.9092262" visible="true" weight="0.1406744" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.90921986" visible="true" weight="0.1406744" />
       <window_info id="Structure" order="1" sideWeight="0.50073636" side_tool="true" weight="0.24973656" />
-      <window_info id="npm" order="2" sideWeight="0.090773806" side_tool="true" visible="true" weight="0.1406744" />
+      <window_info id="npm" order="2" sideWeight="0.09078014" side_tool="true" visible="true" weight="0.1406744" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925372" weight="0.21666667" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925372" visible="true" weight="0.21666667" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -581,7 +541,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.22777778" />
       <window_info anchor="bottom" id="GraphQL" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50074625" side_tool="true" weight="0.23916811" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.25333333" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.25333333" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="bottom" id="TypeScript" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -643,7 +603,8 @@
     <MESSAGE value="- new screenshots added." />
     <MESSAGE value="- images compressed.." />
     <MESSAGE value="- responsibility improved." />
-    <option name="LAST_COMMIT_MESSAGE" value="- responsibility improved." />
+    <MESSAGE value="- interface improvements." />
+    <option name="LAST_COMMIT_MESSAGE" value="- interface improvements." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/images/screenshots/ilcarro/229.png">
@@ -864,27 +825,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="266" column="8" selection-start-line="266" selection-start-column="8" selection-end-line="266" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/portfolio/projects.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aboutme/aboutme.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -913,6 +857,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="505">
           <caret line="290" column="31" selection-start-line="290" selection-start-column="31" selection-end-line="290" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aboutme/aboutme.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="45" column="52" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="325" column="9" selection-start-line="325" selection-start-column="9" selection-end-line="325" selection-end-column="9" />
         </state>
       </provider>
     </entry>
