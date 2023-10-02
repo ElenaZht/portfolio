@@ -234,7 +234,6 @@
     align-items: center;
 
     & div.navLink {
-        margin: 5%;
         @include icon();
         overflow: visible;
     }
@@ -249,9 +248,9 @@
         border: none;
     }
     .navCollapse_body{
-        background-color: $lines;
+        background-color: $navy;
+        box-shadow: 3px 5px 50px 0px rgba(42, 70, 255, 1);
         width: 50vw;
-        height: 50vh;
         position: fixed;
         top: 0;
         right: 0;
@@ -266,26 +265,29 @@
         @include regularText();
         font-size: 4vmax;
         padding: 5%;
-        border-radius: 1rem;
-        height: 5vmax;
         line-height: 1.5;
+        color: white;
+        width: 100%;
 
 
         &[type="active"]{
           border: none;
-          color: white;
           background-color: $vasilyok;
         }
       }
         button{
-            border: solid;
+            border: none;
             background-color: transparent;
             display: flex;
             align-items: center;
-            justify-content: center;
-            margin-bottom: 10%;
+
+
         }
 
+    }
+    .closeNavCollapse{
+        color: rgba(230,64,119,1);
+        padding: 0;
     }
 
 }

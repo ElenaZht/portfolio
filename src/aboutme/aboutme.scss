@@ -51,9 +51,11 @@
     padding: 5% 5% 10%;
 
     span{
-      text-indent: 3vmax;
       margin-top: 2vmax;
     }
+  }
+  .regular_text{
+    font-size: $m;
   }
   .photo{
     height: 50vmax;

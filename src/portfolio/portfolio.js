@@ -1,6 +1,6 @@
 import './portfolio.scss'
 import {projects} from './projects.js'
-import React, {forwardRef, useEffect, useState} from 'react';
+import React, {forwardRef, useState} from 'react';
 import MobileProjectButton from "./mobile_project_button";
 import BeatLoader from "react-spinners/BeatLoader";
 
@@ -153,7 +153,7 @@ function Portfolio({mobile, switcher}, goToPortfolioRef) {
                 <span className='title'>portfolio</span>
                 <div className='line_h'  style={{margin: mobile? '10% auto' : '4% auto 4% auto'}}></div>
             </div>
-            <div className={mobile?'buttons buttons_mobile':'buttons'}>
+            <div className={mobile? 'buttons buttons_mobile' : 'buttons'}>
                 {makeButtons()}
             </div>
             {!mobile&&<div className='window'>

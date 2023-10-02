@@ -273,7 +273,8 @@ body::-webkit-scrollbar{
       .header{
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
+        width: 100%;
 
         .dialog-title{
           width: 100%;
@@ -325,7 +326,8 @@ body::-webkit-scrollbar{
         @include sectionTitle();
         display: flex;
         transform: none;
-        width: 90%;
+        width: 100%;
+        text-align: center;
         overflow: hidden;
         white-space: pre-wrap;
 
@@ -371,6 +373,91 @@ body::-webkit-scrollbar{
       }
 
     }
+      .carousel{
+        width: 100%;
+        height: 50vh;
+
+        .slide{
+          height: 90%;
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: center;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          width: 100%;
+
+          .shevronLeft, .shevronRight{
+            transition: transform .5s ease-in-out;
+            margin: 1%;
+            width: 20%;
+            height: 100%;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            opacity: 1;
+            cursor: pointer;
+          }
+          .shevronLeft{
+            background-image: url("./images/left-arrow.png");
+          }
+          .shevronRight{
+            background-image: url("./images/right-arrow.png");
+          }
+          .shevronLeft:hover, .shevronRight:hover{
+            transform: scale(1.1);
+
+          }
+          .shevronLeft:active, .shevronRight:active{
+            opacity: 1;
+            transform: scale(.9);
+          }
+          .shevronLeft:active{
+            background-image: url("./images/left-arrow-color.png");
+          }
+          .shevronRight:active{
+            background-image: url("./images/right-arrow-color.png");
+          }
+          .disable{
+            opacity: .2;
+            pointer-events: none;
+          }
+        }
+        .shevronLeft, .shevronRight{
+          height: 50px;
+
+        }
+        .dots{
+          display: flex;
+          flex-direction: row;
+          width: 100%;
+          height: 10%;
+          margin: auto;
+          padding: 0;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+
+
+          & div{
+            border-radius: 50%;
+            background-color: white;
+            box-shadow: 2px 2px 2px 1px rgba(42, 70, 255, 0.2) inset;
+            display: flex;
+            height: 1vmax;
+            width: 1vmax;
+            margin: 1%;
+            flex-shrink: 1;
+            cursor: pointer;
+
+
+
+            &.activeDot{
+              background-color: $vasilyok;
+            }
+          }
+        }
+      }
 
   }
   form{

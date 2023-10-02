@@ -19,12 +19,12 @@ function Aboutme({mobile}, goToAboutRef) {
             {dropDown&&mobile&&<div className='text'>
                 {/* MOBILE */}
 
-                <span>Nice to meet you!</span>
+                <span className="regular_text">Nice to meet you!</span>
 
-                <span>My name is <a className='highlight'>Elena</a>, and I’m a creative and mission-oriented  <a className='highlight'>junior front-end developer </a>
+                <span className="regular_text">My name is <a className='highlight'>Elena</a>, and I’m a creative and mission-oriented  <a className='highlight'>junior front-end developer </a>
                     with experience in React, Angular 2+, HTML, CSS, and JavaScript from Holon. </span>
 
-                <span>
+                <span className="regular_text">
                     I am passionate about designing intuitive and responsive user interfaces that not only look great, but also align with client's values and goals.
                     I am excited to explore new opportunities that allow me to use my creativity and technical skills.
                 </span>

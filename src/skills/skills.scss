@@ -85,6 +85,7 @@
   .wrap_mobile{
     width: 100%;
     height: 100%;
+    overflow: hidden;
 
     .head{
       display: flex;
@@ -119,10 +120,8 @@
   }
   .stack_mobile{
     width: 100%;
-    height: 50vh;
     padding: 0;
-    margin-right: 2%;
-    margin-left: 2%;
+    margin: 0;
     overflow: auto;
 
     .head{

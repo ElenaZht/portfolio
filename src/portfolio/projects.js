@@ -3,13 +3,13 @@ const projects = [{
   "logo": require("./../images/screenshots/weather/logoweatherlogo.png"),
   "name": "weather",
   "link": "https://github.com/ElenaZht/Weather",
-  "live_link":"http://weather.themove.fun.s3-website-us-east-1.amazonaws.com",
+  "live_link":"https://weather.themove.fun",
   "desc": "application for monitoring current weather and latest news",
   "overview": [
-    "current weather, world news, and local news for various countries",
-    "search and save regions of your interest",
-    "automatically  recognize your  region",
-    "authorization with google account",
+    "Current weather, world news, and local news for various countries",
+    "Search and save regions of your interest",
+    "Automatically  recognize your  region",
+    "Authorization with google account",
     "Automatically adjust theme to the time of day"
   ],
   "slides": [
@@ -39,10 +39,15 @@ const projects = [{
     {'name' : 'Figma', 'img' : require('./../images/stack/figma.png')},
     {'name' : 'REST API', 'img' : require('./../images/stack/restapi.png')},
     {'name' : 'Git', 'img' : require('./../images/stack/git.png')},
-    {'name' : 'GitHub', 'img' : require('./../images/stack/github.png')},
     {'name' : 'RxJs', 'img' : require('./../images/stack/rxjs.png')},
     {'name' : 'HTML5', 'img' : require('./../images/stack/html5.png')},
 
+  ],
+  "short_stack": [
+    {'name' : 'React', 'img' : require('./../images/stack/react.png')},
+    {'name' : 'Google API', 'img' : require('./../images/stack/googleapi.png')},
+    {'name' : 'CSS3', 'img' : require('./../images/stack/scss.png')},
+    {'name' : 'RxJs', 'img' : require('./../images/stack/rxjs.png')}
   ]
 },
   {  "id": "2",
@@ -52,14 +57,14 @@ const projects = [{
     "live_link":"https://il-carro.themove.fun",
     "desc": "application-aggregator for renting private cars",
     "overview": [
-      "offer your car for rent",
-      "search for a relevant car on map or in list using sorting by parameters",
+      "Offer your car for rent",
+      "Search for a relevant car on map or in list using sorting by parameters",
       "View top-rated cars",
-      "book a car for a desired date and time in the calendar",
-      "manage your cars and bookings in your cabinet",
-      "see history of your renting",
-      "approve returning a car",
-      "leave feedback and rate cars"
+      "Book a car for a desired date and time in the calendar",
+      "Manage your cars and bookings in your cabinet",
+      "See history of your renting",
+      "Approve returning a car",
+      "Leave feedback and rate cars"
   ],
     "slides": [
     require("./../images/screenshots/ilcarro/ilcarro_promo.png"),
@@ -80,26 +85,30 @@ const projects = [{
     "stack": [
       {'name' : 'Angular', 'img' : require('./../images/stack/angular.png')},
       {'name' : 'CSS3', 'img' : require('./../images/stack/css3.png')},
-      {'name' : 'JavaScript', 'img' : require('./../images/stack/js-file.png')},
       {'name' : 'REST API', 'img' : require('./../images/stack/restapi.png')},
       {'name' : 'Git', 'img' : require('./../images/stack/git.png')},
-      {'name' : 'GitHub', 'img' : require('./../images/stack/github.png')},
       {'name' : 'Google Map API', 'img' : require('./../images/stack/google-maps.png')},
       {'name' : 'Postman API', 'img' : require('./../images/stack/postman.png')},
-      {'name' : 'jQuery', 'img' : require('./../images/stack/jquery.png')},
+      {'name' : 'RxJs', 'img' : require('./../images/stack/rxjs.png')},
       {'name' : 'HTML5', 'img' : require('./../images/stack/html5.png')},
 
+    ],
+    "short_stack": [
+      {'name' : 'Angular', 'img' : require('./../images/stack/angular.png')},
+      {'name' : 'RxJs', 'img' : require('./../images/stack/rxjs.png')},
+      {'name' : 'Google Map API', 'img' : require('./../images/stack/google-maps.png')},
+      {'name' : 'Postman API', 'img' : require('./../images/stack/postman.png')},
     ]
 },
   {  "id": "3",
     "logo": require("./../images/screenshots/coffeebreacker/coffee_logo.png"),
     "name": "Coffee Breaker",
     "link": "https://github.com/ElenaZht/coffeeBreaker",
-    "live_link":"http://coffee-breaker.themove.fun.s3-website-us-east-1.amazonaws.com", // todo https link
+    "live_link":"https://coffee-breaker.themove.fun",
     "desc": "two-side application for coffee house business",
     "overview": [
-      "as a client - order coffee and food from one of branches, see status of your order and history in your account",
-      "as an owner - manage menu and branches, see statistics, see admin’s information, manage orders"
+      "As a client - order coffee and food from one of branches, see status of your order and history in your account",
+      "As an owner - manage menu and branches, see statistics, see admin’s information, manage orders"
   ],
     "slides": [
       require("./../images/screenshots/coffeebreacker/coffee_promo.png"),
@@ -131,16 +140,21 @@ const projects = [{
     "stack": [
       {'name' : 'Angular', 'img' : require('./../images/stack/angular.png')},
       {'name' : 'CSS3', 'img' : require('./../images/stack/css3.png')},
-      {'name' : 'JavaScript', 'img' : require('./../images/stack/js-file.png')},
       {'name' : 'HTML5', 'img' : require('./../images/stack/html5.png')},
       {'name' : 'Figma', 'img' : require('./../images/stack/figma.png')},
       {'name' : 'REST API', 'img' : require('./../images/stack/restapi.png')},
       {'name' : 'Git', 'img' : require('./../images/stack/git.png')},
-      {'name' : 'GitHub', 'img' : require('./../images/stack/github.png')},
       {'name' : 'JSON Server', 'img' : require('./../images/stack/json-file.png')},
       {'name' : 'i18n', 'img' : require('./../images/stack/i18n.jpg')},
       {'name' : 'RxJs', 'img' : require('./../images/stack/rxjs.png')},
       {'name' : 'Materialize', 'img' : require('./../images/stack/matcss-min.png')}
+    ],
+    "short_stack": [
+      {'name' : 'Angular', 'img' : require('./../images/stack/angular.png')},
+      {'name' : 'JSON Server', 'img' : require('./../images/stack/json-file.png')},
+      {'name' : 'RxJs', 'img' : require('./../images/stack/rxjs.png')},
+      {'name' : 'Materialize', 'img' : require('./../images/stack/matcss-min.png')}
+
     ]
    }
 ];
