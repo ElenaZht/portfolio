@@ -36,7 +36,7 @@ function Aboutme({mobile}, goToAboutRef) {
                 <span>My name is <a className='highlight'>Elena</a>, and I’m a creative and mission-oriented  <a className='highlight'>junior front-end developer</a>
                     with experience in React, Angular, HTML, CSS, and JavaScript from Holon. </span>
 
-                <span> I am passionate about designing intuitive and responsive user interfaces that not only look great, but also align with client's values and goals.
+                <span> I am passionate about creating intuitive and responsive user interfaces that not only look great, but also align with client's values and goals.
                     I am excited to explore new opportunities that allow me to use my creativity and technical skills.</span>
                 <span>I believe in using technology for good, and I will be dedicated to working with organizations that share this mission. Whether it's improving access
                     to education or advancing sustainability initiatives, I am committed to using my skills to make a positive impact.</span>
